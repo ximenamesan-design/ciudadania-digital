@@ -1,1 +1,143 @@
-# ciudadania-digital
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ciudadanía Digital</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0077cc, #00c6ff);
+  color: #333;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* NAV */
+nav {
+  background: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CARDS */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* BUTTON */
+button {
+  background: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 600px) {
+  header h1 {
+    font-size: 2em;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>🌐 Ciudadanía Digital</h1>
+  <p>Usa la tecnología de forma responsable</p>
+</header>
+
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#">Consejos</a>
+  <a href="#">Seguridad</a>
+</nav>
+
+<div class="container">
+
+  <div class="card">
+    <h2>¿Qué es?</h2>
+    <p>Es el uso responsable, seguro y ético del internet.</p>
+  </div>
+
+  <div class="card">
+    <h2>Consejos</h2>
+    <ul>
+      <li>No compartas datos personales</li>
+      <li>Respeta a otros usuarios</li>
+      <li>Verifica la información</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Seguridad</h2>
+    <p>Protege tus cuentas usando contraseñas seguras.</p>
+    <button onclick="mensaje()">Aprender más</button>
+  </div>
+
+</div>
+
+<footer>
+  <p>Proyecto escolar 2026</p>
+</footer>
+
+<script>
+function mensaje() {
+  alert("¡Estás siendo un buen ciudadano digital!");
+}
+</script>
+
+</body>
+</html># ciudadania-digital
